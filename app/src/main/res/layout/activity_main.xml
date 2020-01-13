@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     xmlns:toots="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="16dp"
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:ems="5"
         android:inputType="number"
-        android:text="@string/num_people_hint" />
+        android:hint="@string/num_people_hint" />
 
     <TextView
         android:id="@+id/textView2"
